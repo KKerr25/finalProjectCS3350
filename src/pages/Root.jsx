@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-
+import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
 function RootLayout() {
@@ -7,6 +7,7 @@ function RootLayout() {
     <div>
       <Navigation />
       <Outlet />
+      <Footer />
     </div>
   );
 }

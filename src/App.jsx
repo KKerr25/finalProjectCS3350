@@ -3,7 +3,7 @@ import "./App.css";
 import Recipe from "./pages/RecipiePage";
 import RootLayout from "./pages/Root";
 import HomePage from "./pages/Home";
-import Footer from "./components/Footer";
+
 import cuteBackground from "./images/cutebackground.jpg";
 
 function App() {
@@ -29,7 +29,6 @@ function App() {
       }}
     >
       <RouterProvider router={router} />
-      <Footer></Footer>
     </div>
   );
 }
