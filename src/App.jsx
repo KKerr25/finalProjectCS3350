@@ -4,6 +4,7 @@ import Recipe from "./pages/RecipiePage";
 import RootLayout from "./pages/Root";
 import HomePage from "./pages/Home";
 import Footer from "./components/Footer";
+import cuteBackground from "./images/cutebackground.jpg";
 
 function App() {
   const router = createBrowserRouter([
@@ -20,10 +21,16 @@ function App() {
   ]);
 
   return (
-    <>
+    <div
+      style={{
+        backgroundImage: `url(${cuteBackground})`, // Correct formatting for backgroundImage
+        backgroundSize: "cover", // Optional: Ensures the image covers the container
+        backgroundRepeat: "no-repeat", // Optional: Prevents image repetition
+      }}
+    >
       <RouterProvider router={router} />
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

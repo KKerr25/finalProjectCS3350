@@ -72,13 +72,6 @@ h2 {
   color: rgb(245, 182, 193);
 }
 
-.gridItem1 {
-  background-image: url("src/images/pasta.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .hoverText {
   position: absolute;
   top: 50%;

@@ -3,7 +3,7 @@
   margin: 0;
   text-align: center;
   width: 100%;
-  background-image: url(C:\Users\Konrad\OneDrive\Desktop\Weber-State\CS3350\finalProjectCS3350\src\images\cutebackground.jpg);
+  background-image: url("src/images/cutebackground.jpg");
 }
 
 .logo {

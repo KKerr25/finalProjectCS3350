@@ -4,10 +4,10 @@ import Navigation from "../components/Navigation";
 
 function RootLayout() {
   return (
-    <>
+    <div>
       <Navigation />
       <Outlet />
-    </>
+    </div>
   );
 }
 
